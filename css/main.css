@@ -1,4 +1,3 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
 body {
   font-family: "Montserrat", "Seymour+One", sans-serif;
   font-style: normal;
@@ -128,9 +127,7 @@ button {
     line-height: 0;
   }
   .gallary-picter-1 {
-    position: absolute;
-    left: 20px;
-    top: -24px;
+    text-align: center;
   }
   .gallary-picter-2 {
     display: none;
@@ -141,33 +138,22 @@ button {
 }
 @media screen and (min-width: 768px) {
   .gallary-picter-1 {
-    position: absolute;
-    top: -164px;
-    left: 31px;
     width: 704px;
   }
   .gallary-picter-2 {
-    position: absolute;
     display: block;
-    top: 155px;
-    left: 31px;
     width: 704px;
     height: 293px;
     border-radius: 18px;
   }
   .gallary-picter-3 {
-    position: absolute;
     display: block;
-    top: 500px;
-    left: 31px;
     height: 327px;
     width: 704px;
   }
 }
 @media screen and (min-width: 1200px) {
   .gallary-picter-1 {
-    top: -94px;
-    left: 94px;
     width: 1013px;
   }
   .gallary-picter-2 {
