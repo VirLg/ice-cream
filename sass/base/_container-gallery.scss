@@ -1,4 +1,46 @@
+@media screen and (max-width: 319px) {
+    .container-gallery {
+    background-image: url('../../images/mobile/gallary-fon-mobile.webp');
+    height: 940px;
+    background-repeat: no-repeat;
+}
+}
+
+
+@media screen and (min-width: 320px) {
 .container-gallery {
-    padding-top: 24px;
+        background-image: url('../../images/mobile/gallary-fon-mobile.webp');
+        height: 940px;
+        background-repeat: no-repeat;
+    }
+.container-gallery {
+    margin-top: 24px;
     position: relative;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .container-gallery {
+            background-image: url('../../images/tablet/gallary-fon-tablet.webp');
+            height: 958px;
+    }
+.container-gallery {
+        
+        position: relative;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .container-gallery {
+            background-image: url('../../images/desktop/gallary-fon-desktop.webp');
+            height: 1020px;
+        }
+
+    .container-gallery {
+            margin-top: 24px;
+            position: relative;
+        }
 }

@@ -1,37 +1,37 @@
 .container {
 border: 1px solid red;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     background-color: white;
 }
 @media screen and (max-width: 319px) {
     .container {
-        max-width: 319px;
+        max-width: 287px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 288px;
         margin-left: auto;
         margin-right: auto;
 
     }
 }
 
-@media screen and (min-width: 320px) {
-    .container {
-        width: 320px;
-        margin-left: auto;
-            margin-right: auto;
-
-    }
-}
-
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
+        max-width: 736px;
 
     }
 }
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1200px;
+        max-width: 1168px;
 
     }
 }
